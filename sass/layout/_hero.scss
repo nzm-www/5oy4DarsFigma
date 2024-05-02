@@ -1,0 +1,66 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: 765px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.hero-h1 {
+  color: rgb(21, 12, 1);
+  font-family: Philosopher;
+  font-size: 48.83px;
+  font-weight: 700;
+  line-height: 57.6px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 20px;
+  @media (max-width: 765px) {
+    font-size: 25px;
+  }
+}
+.hero-hr {
+  width: 183.5px;
+}
+.hero-p {
+  padding-top: 24px;
+  color: rgb(21, 12, 1);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 50px;
+
+  @media (max-width: 765px) {
+    font-size: 18px;
+  }
+}
+
+.btn-hero {
+  width: 158px;
+  height: 60px;
+  border-radius: 5px;
+  color: aliceblue;
+  background: rgb(220, 120, 11);
+  border: 0;
+}
+.btn-hero:hover {
+  background: rgba(220, 119, 11, 0);
+  color: rgb(220, 120, 11);
+  border: 1px solid rgb(220, 120, 11);
+  transition: background-color 0.4s linear;
+}
+.boxing-img1 {
+  @media (max-width: 950px) {
+    display: none;
+  }
+}
+.btns {
+  display: flex;
+  gap: 30px;
+}

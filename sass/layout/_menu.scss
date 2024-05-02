@@ -1,0 +1,189 @@
+.all-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.all-foott {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.btn-foot {
+  width: 142px;
+  height: 42px;
+  border-radius: 5px;
+  color: aliceblue;
+  background: rgb(220, 120, 11);
+  border: 0;
+}
+.btn-foot:hover {
+  background: rgba(220, 119, 11, 0);
+  color: rgb(220, 120, 11);
+  border: 1px solid rgb(220, 120, 11);
+  transition: background-color 0.4s linear;
+}
+.img1 {
+  border-radius: 25% 5% 20% 0%;
+}
+.fo-h2 {
+  color: rgb(21, 12, 1);
+  font-family: Philosopher, sans-serif;
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.menu-p {
+  padding-bottom: 9px;
+  color: rgb(220, 120, 11);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 20%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.fo-p {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  color: rgb(21, 12, 1);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.foot {
+  border: 2px solid rgba(220, 119, 11, 0.16);
+  border-radius: 25px;
+  width: 400px;
+  height: 480px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.menu {
+  padding-bottom: 200px;
+  padding-top: 116px;
+  text-align: center;
+  padding-bottom: 187px;
+}
+.narx {
+  display: flex;
+  align-items: center;
+  gap: 128px;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.strassss {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 90px;
+}
+.foot-p {
+  display: flex;
+  padding-left: 24px;
+  color: rgb(21, 12, 1);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 20px;
+}
+#btndd {
+  border-radius: 5px;
+  border: 0;
+  color: aliceblue;
+  background: rgb(220, 120, 11);
+  width: 36px;
+  height: 34px;
+  left: 175px;
+  right: -175px;
+  top: 2480px;
+  bottom: -2480px;
+}
+.h1 {
+  font-family: "Fjalla One", sans-serif;
+  margin-bottom: 0.15rem;
+}
+
+#h2 {
+  font-family: "Cutive Mono", "Courier New";
+  font-size: 5rem;
+  letter-spacing: 1px;
+  margin-bottom: 4rem;
+}
+
+label {
+  cursor: pointer;
+}
+
+svg {
+  width: 20px;
+  height: 3rem;
+  padding: 0.15rem;
+}
+
+input[name="star"] {
+  display: inline-block;
+  width: 0;
+  opacity: 0;
+  margin-left: -2px;
+}
+
+.star-source {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.star {
+  color: transparent;
+  transition: color 0.2s ease-in-out;
+}
+
+.star-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+label:hover ~ label .star,
+svg.star:hover,
+input[name="star"]:focus ~ label .star,
+input[name="star"]:checked ~ label .star {
+  color: rgb(220, 120, 11);
+}
+
+input[name="star"]:checked + label .star {
+  animation: starred 0.5s;
+}
+
+input[name="star"]:checked + label {
+  animation: scaleup 1s;
+}
+
+@keyframes scaleup {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes starred {
+  from {
+    color: rgb(220, 120, 11);
+  }
+  to {
+    color: rgb(220, 120, 11);
+  }
+}

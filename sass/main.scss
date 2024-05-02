@@ -1,0 +1,18 @@
+@use "utilities/mixins";
+@use "utilities/variables";
+
+@use "base/reset";
+@use "base/typography";
+
+@use "layout/hero";
+@use "layout/header";
+@use "layout/section1";
+@use "layout/haridorlar";
+@use "layout/menu";
+@use "layout/appmarket";
+@use "layout/desc";
+@use "layout/footer";
+
+@use "components/buttons";
+
+@use "themes/theme";

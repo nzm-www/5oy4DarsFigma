@@ -1,0 +1,53 @@
+.section1 {
+  text-align: center;
+}
+.pags {
+  padding-top: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 60px;
+}
+
+.h2 {
+  color: rgb(21, 12, 1);
+  font-family: Philosopher, sans-serif;
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  padding-top: 7px;
+}
+
+.p {
+  color: rgb(220, 120, 11);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 20%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.h3 {
+  padding-top: 33px;
+  color: rgb(21, 12, 1);
+  font-family: Philosopher;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.pp {
+  color: rgb(21, 12, 1);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 15px;
+}

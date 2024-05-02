@@ -1,0 +1,30 @@
+footer {
+  height: 429px;
+  background: rgb(37, 37, 37);
+}
+.footrdv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 137px;
+  padding-bottom: 104px;
+}
+p {
+  color: rgba(255, 255, 255, 0.425);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+p:hover {
+  color: chocolate;
+}
+a {
+  color: rgb(139, 14, 14);
+}
+
+a:hover {
+  color: chocolate;
+}
